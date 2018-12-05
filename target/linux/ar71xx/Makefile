@@ -13,7 +13,8 @@ FEATURES:=mips16
 CPU_TYPE=34kc
 SUBTARGETS:=generic nand mikrotik
 
-KERNEL_PATCHVER:=4.1
+#KERNEL_PATCHVER:=4.1
+KERNEL_PATCHVER:=3.18
 
 include $(INCLUDE_DIR)/target.mk
 
